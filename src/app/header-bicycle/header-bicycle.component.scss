@@ -36,6 +36,7 @@
 
 .bicic-button {
   display: flex;
+  align-items: end;
   flex-direction: column;
   justify-content: space-between;
   // width: 300px;
@@ -77,35 +78,27 @@
   max-width: 60px;
 }
 
-
-.container{
-    position: relative;
+.container {
+  position: relative;
 }
 
-
-.main{
-    position: relative;
-    z-index: -1;
-    display: flex;
-    justify-content: end;
-    margin: 0 auto;
-    max-width: 1600px;
+.main {
+  position: relative;
+  z-index: -1;
+  display: flex;
+  justify-content: end;
+  margin: 0 auto;
+  max-width: 1600px;
 }
 
-
-.background{
-    max-width: 1200px;
-    width: 100%;
-    z-index: -1;
-    background: black;
-    height: 460px;
-    position: absolute;
-   
-
-
+.background {
+  max-width: 1200px;
+  width: 100%;
+  z-index: -1;
+  background: black;
+  height: 460px;
+  position: absolute;
 }
-
-
 
 @media screen and (max-width: 768px) {
   .bycycle-01 {
@@ -119,10 +112,9 @@
     padding-left: 0px;
   }
 
-.background{
+  .background {
     height: 900px;
-}
-
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -139,12 +131,11 @@
     font-size: larger;
   }
 
-
-  .bicic-img img{
+  .bicic-img img {
     height: 200px;
   }
 
-  .background{
+  .background {
     height: 750px;
-}
+  }
 }
