@@ -1,0 +1,86 @@
+.differnciate {
+  background-color: rgba(18, 18, 18, 1);
+  color: white;
+  padding: 100px 30px 100px 30px;
+}
+
+.differ-child {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 3rem;
+}
+
+span {
+  color: rgba(255, 187, 0, 1);
+}
+
+.characteristic {
+  display: flex;
+  gap: 2rem;
+  padding-top: 100px;
+}
+
+.differenciate-img img {
+  max-width: 700px;
+  width: 100%;
+}
+
+.diffenciate-content {
+  max-width: 549px;
+}
+
+.diffenciate-content h2 {
+  font-size: 64px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.diffenciate-content h3 {
+  color: rgba(179, 179, 179, 1);
+}
+
+.diffenciate-content p {
+  line-height: 30px;
+
+  font-size: 20px;
+  color: gray;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .differ-child {
+        flex-direction: column;
+    }
+
+
+    .diffenciate-content{
+        max-width: 100%;
+    }
+
+    .diffenciate-content h2{
+        font-size: 40px;
+    }
+
+    .diffenciate-content p{
+        font-size: 13px;
+    }
+
+    .differenciate-img img{
+        max-width: 400px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .diffenciate-content h2{
+        font-size: 30px;
+    }
+    
+
+}

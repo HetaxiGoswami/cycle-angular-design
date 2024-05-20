@@ -1,0 +1,68 @@
+.biciclets {
+
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    padding-top: 160px;
+}
+
+.biciclets-flex {
+  display: flex;
+  gap: 3rem;
+}
+
+.cycle-one img {
+  max-width: 460px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .biciclets {
+    margin: 30px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+  }
+
+  .cycle-one {
+    font-size: smaller;
+  }
+
+  .cycle-one h3 {
+    font-size: x-small;
+  }
+
+  .cycle-one p {
+    font-size: x-small;
+    margin: 0;
+  }
+
+
+
+}
+
+@media screen and (max-width: 425px) {
+  .home-left h1 {
+    font-size: 30px;
+  }
+
+  .home-left {
+    margin-bottom: 80px;
+  }
+
+  .biciclets {
+    margin: 0px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+  }
+
+  .cycle-one h3 {
+    font-size: x-small;
+  }
+
+  .cycle-one p {
+    font-size: x-small;
+    margin: 0;
+  }
+}

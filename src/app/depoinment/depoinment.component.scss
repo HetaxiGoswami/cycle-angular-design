@@ -1,0 +1,83 @@
+.depointment {
+
+  max-width: 1597px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(255, 187, 0, 1);
+}
+
+.depointment-color {
+  display: flex;
+  gap: 3rem;
+}
+
+.depointment-img img {
+  max-width: 778px;
+  width: 100%;
+}
+
+.depointment-content {
+  width: 505.05px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-bottom: 50px;
+}
+
+.depointment-content .italic-font {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 36px;
+  line-height: 48px;
+  margin: 0;
+}
+
+.ana-font {
+  color: rgba(166, 111, 0, 1);
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .depointment-color {
+    flex-direction: column;
+  }
+
+  .depointment-content .italic-font {
+    font-size: 25px;
+  }
+.depointment-content{
+    width: 100%;
+}
+
+.depointment {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .depointment {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+
+
+    .depointment-color{
+        gap: 1rem;
+    }
+    
+    .depointment-img{
+        margin-top: 20px;
+    }
+    
+    .depointment-content .italic-font {
+
+    font-size: 17px;
+    line-height: 30px;
+    }
+}

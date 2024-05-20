@@ -1,0 +1,129 @@
+.parcerois {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 50px 30px 50px 30px;
+
+}
+
+h2{
+    max-width: 860px;
+    // margin: 0 auto;
+    padding-bottom: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.parceios-imgs{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.comman{
+    padding: 30px;
+    padding-right: 68px;
+    padding-left: 6px;
+}
+
+
+.upper{
+    border-right: 1px solid gray
+}
+
+.lower{
+    border-right: 1px solid gray
+}
+
+.left{
+    // border-right: 1px solid gray
+}
+
+.right{
+    border-right: 1px solid gray
+}
+
+
+.comman img {
+    max-width: 200px;
+    width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+
+.upper{
+    display: flex;
+}
+
+.lower{
+    display: flex;
+}
+
+.left{
+    display: flex;
+    border-right: 1px solid gray
+}
+
+.right{
+    display: flex;
+}
+
+.parceios-imgs{
+    flex-direction: column;
+}
+
+
+}
+
+
+@media screen and (max-width:425px){
+    h2{
+        text-align: center;
+    }
+
+    .parceios-imgs{
+        gap: 2rem;
+    }
+
+
+    .upper{
+        display: flex;
+      
+    }
+    
+    .lower{
+        display: flex;
+    
+
+    }
+    
+    .left{
+        display: flex;
+        border-right: 1px solid gray
+    }
+    
+    .right{
+        display: flex;
+      
+
+    }
+    
+    .parceios-imgs{
+        // flex-direction: column;
+    }
+
+
+    .comman img{
+        max-width: 100px;
+        width: 70%;
+    }
+
+
+
+    .comman{
+        padding: 30px;
+        padding-right: 0px;
+        padding-left: 6px;
+    }
+}

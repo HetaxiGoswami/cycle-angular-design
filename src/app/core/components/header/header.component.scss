@@ -1,0 +1,43 @@
+.header{
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    padding: 10px;
+    margin: 0;
+
+}
+
+.header-max-width{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.header-links ul{
+    display: flex;
+    padding: 0;
+    gap: 3rem;
+    list-style-type: none;
+}
+
+
+.header-links a{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media screen and (max-width: 759px) {
+    .header-links ul {
+        display: none;
+    }
+  
+    .header-max-width{
+        justify-content: flex-start;
+        padding-left: 30px;
+    }
+
+}
+
