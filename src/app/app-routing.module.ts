@@ -8,6 +8,8 @@ import { IntroductionComponent } from './introduction/introduction.component';
 import { DifferncialComponent } from './differncial/differncial.component';
 import { ParceirosComponent } from './parceiros/parceiros.component';
 import { DepoinmentComponent } from './depoinment/depoinment.component';
+import { HeaderSegurosComponent } from './header-seguros/header-seguros.component';
+import { HeaderBicycleComponent } from './header-bicycle/header-bicycle.component';
 
 const routes: Routes = [
   {
@@ -46,6 +48,14 @@ const routes: Routes = [
   {
     path:'depoinment',
     component:DepoinmentComponent
+  },
+  {
+    path:'header-seguros',
+    component:HeaderSegurosComponent
+  },
+  {
+    path:'header-bicycle',
+    component:HeaderBicycleComponent
   }
  
 ];

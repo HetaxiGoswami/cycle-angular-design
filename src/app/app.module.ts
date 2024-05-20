@@ -15,9 +15,11 @@ import { IntroductionComponent } from './introduction/introduction.component';
 import { DifferncialComponent } from './differncial/differncial.component';
 import { ParceirosComponent } from './parceiros/parceiros.component';
 import { DepoinmentComponent } from './depoinment/depoinment.component';
+import { HeaderBicycleComponent } from './header-bicycle/header-bicycle.component';
+import { HeaderSegurosComponent } from './header-seguros/header-seguros.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, BicicletsComponent, SegurosComponent, ContactComponent, IntroductionComponent, DifferncialComponent, ParceirosComponent, DepoinmentComponent],
+  declarations: [AppComponent, HomeComponent, BicicletsComponent, SegurosComponent, ContactComponent, IntroductionComponent, DifferncialComponent, ParceirosComponent, DepoinmentComponent, HeaderBicycleComponent, HeaderSegurosComponent],
   imports: [BrowserModule, AppRoutingModule, CoreModule],
   providers: [provideClientHydration()],
   bootstrap: [AppComponent],
