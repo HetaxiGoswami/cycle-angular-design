@@ -3,14 +3,16 @@
     color: white;
     padding: 10px;
     margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
 
 }
 
 .header-max-width{
-    max-width: 1600px;
+    max-width: 1160px;
     width: 100%;
     margin: 0 auto;
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
     align-items: center;
 }
