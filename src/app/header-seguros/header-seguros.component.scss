@@ -1,0 +1,89 @@
+.nossas-container {
+  background-color: rgba(0, 0, 0, 1);
+  color: white;
+}
+
+.nossas {
+  padding-left: 30px;
+  max-width: 1154px;
+  margin: 0 auto;
+  padding-right: 30px;
+}
+
+.nossas-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.nossas-card {
+  flex: 1 1 calc(33.333% - 2rem); /* Ensures three cards per row */
+  box-sizing: border-box;
+  margin-bottom: 2rem; /* Adds space between rows */
+}
+
+.nossas h2 {
+  margin: 0 auto;
+  font-size: 64px;
+  padding-top: 100px;
+}
+
+.nossas-p {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.nossas-paragraph {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  color: rgba(156, 156, 156, 1);
+}
+
+.nossas-vantagens {
+  padding-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .nossas-p {
+    font-size: medium;
+  }
+
+  .nossas-paragraph {
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+.nossas h2{
+    font-size: x-large;
+    padding-top: 30px;
+}
+
+}
+
+@media screen and (max-width: 531px) {
+  .nossas-paragraph {
+    font-size: 11px;
+    line-height: 15px;
+  }
+  .nossas-p {
+    font-size: smaller;
+  }
+
+  .nossas h2{
+    font-size: larger;
+    padding-top: 30px;
+  }
+
+  .nossas-cards{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nossas-card{
+    margin-bottom: 1px;
+  }
+
+}

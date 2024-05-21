@@ -1,0 +1,347 @@
+.contacto-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: rgba(18, 18, 18, 1);
+  height: 500px;
+  color: white;
+  margin-bottom: 380px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.contacto {
+  max-width: 1160px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.contacto h3 {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: rgba(179, 179, 179, 1);
+}
+
+.contacto h2 {
+  font-size: 49px;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.contact-bg {
+  position: absolute;
+  top: 150px;
+  font-weight: 500;
+  margin-bottom: 300px;
+  display: flex;
+  max-width: 1160px;
+  width: 100%;
+  height: 576px;
+}
+
+.ng-address {
+  width: 460px;
+  background-color: rgba(0, 0, 0, 1);
+  padding-right: 15px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.ng-form-child {
+  max-width: 233px;
+  padding-left: 68px;
+  padding-top: 50px;
+}
+
+.ng-form-add {
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.ng-form {
+  background-color: white;
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.contact-social {
+  display: flex;
+  gap: 2rem;
+  padding-top: 50px;
+  justify-content: end;
+}
+
+.form-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+input {
+  padding: 15px;
+  background-color: rgba(237, 237, 237, 1);
+  color: rgba(112, 112, 112, 1);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  border: rgba(237, 237, 237, 1);
+  border-radius: 5px;
+}
+
+textarea {
+  padding: 15px;
+  background-color: rgba(237, 237, 237, 1);
+  color: rgba(112, 112, 112, 1);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  border: rgba(237, 237, 237, 1);
+  border-radius: 5px;
+  height: 120px;
+}
+
+.form-button button {
+  background-color: rgba(255, 187, 0, 1);
+  padding: 16px 32px 16px 32px;
+  font-family: "Poppins", sans-serif;
+  border: rgba(255, 187, 0, 1);
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.loja-locais-child {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.loja-locais-child h2 {
+  font-size: 60px;
+}
+
+.container {
+  background-color: rgb(239, 238, 238);
+}
+
+.loja-locais-cards {
+  display: flex;
+  flex-direction: column;
+}
+.loja-locais-box {
+  display: flex;
+  gap: 2rem;
+
+}
+
+.loja-locais-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.loja-locais-card img {
+  max-width: 560px;
+  width: 100%;
+}
+
+.content {
+  max-width: 560px;
+  background-color: white;
+  border-radius: 9px;
+}
+
+.content-padding {
+  padding-left: 30px;
+}
+
+.rio-da {
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.square {
+  background-color: rgba(255, 187, 0, 1);
+  width: 10px;
+  height: 7px;
+}
+
+.loja-locais{
+    padding-bottom: 110px;
+}
+
+.rua-ali-content{
+    gap: 3rem;
+    display: flex;
+    max-width: 519px;
+    margin: 0 auto;
+    padding-right: 40px;
+    padding-left: 40px;
+    flex-wrap: wrap;
+}
+
+
+.border-left{
+    border-left: 1px solid rgb(210, 210, 210);
+    padding-left: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .contact-bg {
+    // flex-direction: column;
+  }
+  .form-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .ng-form-child {
+    padding-left: 10px;
+  }
+
+  .ng-form-add {
+    gap: 10px;
+    width: 100%;
+  }
+
+  .contact-social {
+    justify-content: center;
+  }
+
+  .location p {
+    font-size: small;
+  }
+
+  input {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  textarea {
+    padding: 10px;
+    font-size: 12px;
+    height: 55px;
+  }
+
+  .contact-social img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .form-row {
+    align-items: normal;
+    flex-direction: column;
+  }
+
+  label {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+  }
+
+  .form-button button {
+    padding: 10px 36px 10px 34px;
+    font-size: 10px;
+  }
+
+  .contact-bg {
+    height: 401px;
+  }
+
+  .loja-locais-child h2{
+    font-size: 30px;
+  }
+
+
+
+
+
+}
+
+@media screen and (max-width: 531px) {
+  .contacto-container {
+    height: 526px;
+  }
+
+  .contact-bg {
+    flex-direction: column-reverse;
+    top: 360px;
+  }
+  .ng-address {
+    width: 100%;
+  }
+
+  .contacto h2 {
+    font-size: 20px;
+  }
+
+  .ng-form-add {
+    width: 100%;
+  }
+
+  .form-button button {
+    width: 100%;
+  }
+
+  .ng-form {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+  }
+
+  .ng-form-child {
+    padding-left: 25px;
+    max-width: 100%;
+  }
+
+  .contact-social {
+    justify-content: flex-start;
+    padding-top: 19px;
+    gap: 20px;
+  }
+
+  .rua-ali-content{
+    gap: 1rem;
+  }
+
+  .loja-locais-box{
+    flex-direction: column;
+  }
+
+
+.rio-da{
+    font-size: smaller;
+}
+
+.rua-ali-content{
+    font-size: 13px;
+}
+
+}
