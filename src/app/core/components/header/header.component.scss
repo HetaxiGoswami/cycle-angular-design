@@ -6,6 +6,11 @@
   max-width: 1600px;
   padding-left: 30px;
   padding-right: 30px;
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  right: 0;
+  z-index: 1000; 
 }
 
 .header-max-width {
@@ -30,14 +35,9 @@
 }
 
 @media screen and (max-width: 759px) {
-  // .header-links ul {
-  //     display: none;
-  // }
-
   .header-max-width {
     justify-content: flex-start;
     padding-left: 30px;
-    padding-left: 0px;
     flex-direction: column;
   }
 
@@ -50,7 +50,7 @@
   }
 }
 
-@media screen and (max-width:531px) {
+@media screen and (max-width: 531px) {
   .header-max-width {
     padding-left: 0px;
     flex-direction: column;
