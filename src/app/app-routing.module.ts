@@ -13,55 +13,49 @@ import { HeaderBicycleComponent } from './header-bicycle/header-bicycle.componen
 
 const routes: Routes = [
   {
-    path:'',
-    pathMatch:'full',
-    component:HomeComponent
+    path: '',
+    pathMatch: 'full',
+    component: HomeComponent,
   },
   {
-    path:'contact',
-    component:ContactComponent
+    path: 'contact',
+    component: ContactComponent,
   },
   {
-    path:'seguros',
-    component:SegurosComponent
+    path: 'seguros',
+    component: SegurosComponent,
   },
   {
-    path:'biciclets',
-    component:BicicletsComponent
+    path: 'biciclets',
+    component: BicicletsComponent,
   },
   {
-    path:'introduction',
-    component:IntroductionComponent
+    path: 'introduction',
+    component: IntroductionComponent,
   },
   {
-    path:'differncial',
-    component:DifferncialComponent
+    path: 'differncial',
+    component: DifferncialComponent,
   },
   {
-    path:'biciclets',
-    component:BicicletsComponent
+    path: 'biciclets',
+    component: BicicletsComponent,
   },
   {
-    path:'parceiros',
-    component:ParceirosComponent
+    path: 'parceiros',
+    component: ParceirosComponent,
   },
   {
-    path:'depoinment',
-    component:DepoinmentComponent
+    path: 'depoinment',
+    component: DepoinmentComponent,
   },
-  {
-    path:'header-seguros',
-    component:HeaderSegurosComponent
-  },
-  {
-    path:'header-bicycle',
-    component:HeaderBicycleComponent
-  }
- 
+  { path: 'header-seguros', component: HeaderSegurosComponent },
+  { path: 'header-bicycle', component: HeaderBicycleComponent },
+  { path: 'contact', component: ContactComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

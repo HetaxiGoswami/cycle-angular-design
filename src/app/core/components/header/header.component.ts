@@ -7,14 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
-   toggleMenu() {
-    const menu = document.querySelector('.header-links ul');
-    if (menu) {
-        menu.classList.toggle('active');
-    } else {
-        console.error("Menu element not found");
-    }
-}
+  
 
 
 }

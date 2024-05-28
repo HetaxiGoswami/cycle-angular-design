@@ -17,11 +17,11 @@ import { ParceirosComponent } from './parceiros/parceiros.component';
 import { DepoinmentComponent } from './depoinment/depoinment.component';
 import { HeaderBicycleComponent } from './header-bicycle/header-bicycle.component';
 import { HeaderSegurosComponent } from './header-seguros/header-seguros.component';
-import { RouterLink, RouterOutlet } from '@angular/router';
+import { RouterLink, RouterModule, RouterOutlet } from '@angular/router';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent, BicicletsComponent, SegurosComponent, ContactComponent, IntroductionComponent, DifferncialComponent, ParceirosComponent, DepoinmentComponent, HeaderBicycleComponent, HeaderSegurosComponent],
-  imports: [BrowserModule, AppRoutingModule, CoreModule, RouterLink, RouterOutlet],
+  imports: [BrowserModule, AppRoutingModule, CoreModule, RouterLink, RouterOutlet,RouterModule],
   providers: [provideClientHydration()],
   bootstrap: [AppComponent],
 })

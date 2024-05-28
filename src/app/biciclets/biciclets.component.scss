@@ -1,16 +1,24 @@
 .biciclets {
-
   padding-left: 30px;
   padding-right: 30px;
-  max-width: 1200px;
-    margin: 0 auto;
-    padding-bottom: 60px;
-    padding-top: 160px;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  padding-top: 160px;
+}
+
+.biciclets-h2{
+  font-size: 64px;
+  line-height: 72px;
+  max-width: 469px;
+  margin-left: 205px;
 }
 
 .biciclets-flex {
   display: flex;
   gap: 3rem;
+  justify-content: center;
 }
 
 .cycle-one img {
@@ -18,9 +26,27 @@
   width: 100%;
 }
 
+.yellow-box{
+  width: 12px;
+  height: 8px;
+  background-color: rgba(255, 187, 0, 1);
+}
+
+.magic-h3{
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.m-0{
+  margin: 0;
+}
+
+
 @media screen and (max-width: 768px) {
   .biciclets {
-    margin: 30px;
+    // margin: 30px;
     padding-bottom: 20px;
     padding-top: 0px;
   }
@@ -66,5 +92,7 @@
     margin: 0;
   }
 
- 
+  .biciclets-flex{
+    flex-direction: column;
+  }
 }
