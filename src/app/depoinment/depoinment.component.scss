@@ -1,5 +1,5 @@
 .depointment {
-
+  margin-top: 200px;
   max-width: 1597px;
   width: 100%;
   margin: 0 auto;
@@ -47,37 +47,32 @@
   .depointment-content .italic-font {
     font-size: 25px;
   }
-.depointment-content{
+  .depointment-content {
     width: 100%;
-}
+  }
 
-.depointment {
+  .depointment {
     padding-right: 30px;
     padding-left: 30px;
+  }
 }
 
-}
+@media screen and (max-width: 531px) {
+  .depointment {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 
-@media screen and (max-width:531px) {
+  .depointment-color {
+    gap: 1rem;
+  }
 
-    .depointment {
-        padding-right: 30px;
-        padding-left: 30px;
-    }
+  .depointment-img {
+    margin-top: 20px;
+  }
 
-
-
-    .depointment-color{
-        gap: 1rem;
-    }
-    
-    .depointment-img{
-        margin-top: 20px;
-    }
-    
-    .depointment-content .italic-font {
-
+  .depointment-content .italic-font {
     font-size: 17px;
     line-height: 30px;
-    }
+  }
 }
